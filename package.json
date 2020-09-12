@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "workspaces": [
+    "packages/*",
+    "library",
+    "example"
+  ],
+  "repository": "git@github.com:ArekZc/generic-library.git",
+  "author": "Arek Zając <arekzc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@yarnpkg/pnpify": "^2.2.1",
+    "typescript": "^4.0.2"
+  }
+}

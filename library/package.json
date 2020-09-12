@@ -1,0 +1,20 @@
+{
+  "name": "library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "lib-1": "workspace:*",
+    "lib-2": "workspace:*",
+    "lib-3": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {
+    "lib-1": "*",
+    "lib-2": "*",
+    "lib-3": "*"
+  }
+}

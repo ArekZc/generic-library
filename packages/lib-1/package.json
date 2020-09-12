@@ -1,0 +1,14 @@
+{
+  "name": "lib-1",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "lib-2": "workspace:1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
